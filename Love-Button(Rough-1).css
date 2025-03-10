@@ -1,0 +1,98 @@
+
+body{
+font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+.envelope-message {
+margin-top: 80px;
+background-color: whitesmoke;
+border: 1px solid black;
+margin-left: auto;
+margin-right: auto;
+width: 400px;
+}
+
+.message {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+#heartbeat {
+width: 30px;
+vertical-align: middle;
+}
+
+.bearhug-container {
+display: none;
+margin-top: 20px;
+}
+
+.bearhug-container img {
+width: 100px;
+}
+
+.buttons-container {
+margin-top: 20px;
+}
+
+button {
+padding: 10px 20px;
+font-size: 16px;
+margin: 5px;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+transition: transform 0.2s;
+}
+
+#YesButton {
+background-color: #4CAF50;
+color: white;
+}
+
+#NoButton {
+background-color: #f44336;
+color: white;
+}
+
+.outside-envelope{
+color: white;
+margin-top: 50px;
+cursor: pointer;
+background-color: red;
+height: 300px;
+width: 500px;
+margin-left: auto;
+margin-right: auto;
+transition-duration: 10s;
+transform: translateY(-200px);
+}
+
+.outside-envelope img {
+width: 50px;
+}
+
+.message-disappear {
+display: none;
+}
+
+.buttons-container-disappear {
+display: none;
+}
+
+.bearhug-container-appear {
+display: block;
+}
+
+.outside-envelope-disappear {
+transform:translateY(500%);
+
+}
+
+.envelope-message-appear {
+display: block;
+}
